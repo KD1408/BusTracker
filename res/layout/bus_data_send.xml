@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<EditText
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/etTag"
+    android:gravity="center"
+    android:hint="Enter your GPS tag here"/>
+
+<Button
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnSend"
+    android:text="Send"
+    android:layout_gravity="center"/>
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="Your GPS Tag is:"
+    android:gravity="center"
+    android:layout_marginTop="50dp"/>
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/tvGPStag"/>
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="Latitude:"
+    android:gravity="center"
+    android:layout_marginTop="20dp"/>
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/tvLatitude"/>
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="Longitude:"
+    android:gravity="center"
+    android:layout_marginTop="20dp"/>
+
+<TextView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/tvLongitude"/>
+</LinearLayout>
